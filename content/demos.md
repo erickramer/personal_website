@@ -7,7 +7,7 @@ draft: false
 ### Sentiment Analysis
 [live](https://sentiment.erickramer.live), [code](https://github.com/erickramer/sentiment)
 
-Rather than labeling text as simply "positive" or "negative", this project tags your text with emojis. This method allows for for dozens of different sentiments, while preserving some of the inherent ambiguity in language.
+Rather than labeling text as simply "positive" or "negative", this project tags your text with emojis. This  allows for for dozens of different sentiments, while preserving some of the ambiguity inherent in any sentiment analysis.
 
 The app uses a recurrent neural network written in Python using Keras and Theano. The data visualization is built with d3.js. Flask and jQuery provide the communication between the python backend and the javascript front-end. Training data were collected from Twitter via their API.
 
