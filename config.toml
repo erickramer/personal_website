@@ -33,8 +33,11 @@ pygmentsCodefences       = true
     text = "demos"
 
 [[params.mainMenu]]
-    link = "/posts"
-    text = "blog"
+    link = "https://github.com/erickramer/resume/blob/master/EricKramer-resume.pdf"
+    text = "resume"
+#[[params.mainMenu]]
+#    link = "/posts"
+#    text = "blog"
 
 [[params.mainMenu]]
     link = "/contact"
