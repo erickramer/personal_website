@@ -1,0 +1,87 @@
+<!DOCTYPE html><html><head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<meta name="description" content="Eric Kramer&#39;s personal website">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:domain" content="https://example.org/">
+
+<meta name="twitter:image" content="https://example.org/tn.png">
+<meta name="twitter:title" property="og:title" itemprop="title name" content="Ce n&#39;est pas un site">
+<meta name="twitter:description" property="og:description" itemprop="description" content="Eric Kramer&#39;s personal website">
+<meta name="og:type" content="website">
+<meta name="og:url" content="https://example.org/">
+<meta name="og:image" itemprop="image primaryImageOfPage" content="https://example.org/tn.png">
+
+<link rel="shortcut icon" href="https://example.org/favicon_eric.ico" id="favicon">
+<link rel="stylesheet" href="https://example.org/css/style.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+<title>
+
+Demos
+
+</title></head><body>
+<div class="wrap">
+<div class="section" id="title">Demos</div>
+
+<div class="section" id="content">
+
+<h3 id="sentiment-analysis">Sentiment Analysis</h3>
+
+<p><a href="https://sentiment.eransom.live">live</a>, <a href="https://github.com/erickramer/sentiment">code</a></p>
+
+<p>Rather than labeling text as simply &ldquo;positive&rdquo; or &ldquo;negative&rdquo;, this project tags your text with emojis. This method allows for for dozens of different sentiments, while preserving some of the inherent ambiguity in language.</p>
+
+<p>The app uses a recurrent neural network written in Python using Keras and Theano. The data visualization is built with d3.js. Flask and jQuery provide the communication between the python backend and the javascript front-end. Training data were collected from Twitter via their API.</p>
+
+<h3 id="object-recognition">Object Recognition</h3>
+
+<p><a href="https://image.eransom.live">live</a>, <a href="https://github.com/erickramer/image_recog">code</a></p>
+
+<p>Rapid advances have made deep learning accessible to everyone. Here, I use two well-known object recognition networks (VGG and MobileNet) to demonstrate object recognition in the browser. The app takes snapshots using your webcam and then returns the top-5 objects predicted by the model.</p>
+
+<p>This app also uses deep learning implemented in Python using Keras and Theano. The javascript front-end uses jQuery.js and underscore.js. The backend uses Flask for serving the predictions from the model.</p>
+
+<h3 id="financial-modeling">Financial Modeling</h3>
+
+<p><a href="https://eransom.shinyapps.io/financial_planning/">live</a>, <a href="https://github.com/erickramer/financial_dashboard}">code</a></p>
+
+<p>Planning for your financial future can be a daunting task. This app takes some of the guess work of this planning. It recommends an optimal allocation across retirement accounts and forecasts returns from your portfolio of stocks and bonds. The user specifies their expected income and their desired savings rate.</p>
+
+<p>This app is written in R and C++. Stock forecasts use both R&rsquo;s statistical functions and custom C++ code written for the app. Data visualization is done with ggplot2 and vegalite. Interacting tables use HandsOnTable.js.</p>
+</div>
+
+
+<div class="section bottom-menu"><hr/><p>
+
+
+<a href="/about">about</a>
+
+
+&#183; <a href="/demos">demos</a>
+&#183; <a href="/posts">blog</a>
+&#183; <a href="/contact">contact</a>
+
+&#183; <a href="https://example.org/">home</a></p></div>
+
+
+<div class="section footer">Website made with Hugo and Sam</div>
+</div>
+</body></html>

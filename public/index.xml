@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ce n&#39;est pas un site</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Ce n&#39;est pas un site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Sep 2018 17:07:56 -0700</lastBuildDate>
+    
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/posts/my-first-post/</link>
+      <pubDate>Sun, 30 Sep 2018 17:07:56 -0700</pubDate>
+      
+      <guid>https://example.org/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://example.org/contact/</link>
+      <pubDate>Sun, 30 Sep 2018 14:54:44 -0700</pubDate>
+      
+      <guid>https://example.org/contact/</guid>
+      <description>619.724.3800
+Email
+Github
+LinkedIn</description>
+    </item>
+    
+    <item>
+      <title>Demos</title>
+      <link>https://example.org/demos/</link>
+      <pubDate>Sun, 30 Sep 2018 14:54:20 -0700</pubDate>
+      
+      <guid>https://example.org/demos/</guid>
+      <description>Sentiment Analysis live, code
+Rather than labeling text as simply &amp;ldquo;positive&amp;rdquo; or &amp;ldquo;negative&amp;rdquo;, this project tags your text with emojis. This method allows for for dozens of different sentiments, while preserving some of the inherent ambiguity in language.
+The app uses a recurrent neural network written in Python using Keras and Theano. The data visualization is built with d3.js. Flask and jQuery provide the communication between the python backend and the javascript front-end.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Sun, 30 Sep 2018 14:50:33 -0700</pubDate>
+      
+      <guid>https://example.org/about/</guid>
+      <description>I&amp;rsquo;m Eric Kramer, a data scientist and soon-to-be medical doctor. I&amp;rsquo;m an alumnus of Northwestern, UC San Diego School of Medicine and Dataiku. I&amp;rsquo;m interested in the intersection of medicine and data science, data visualization and machine learning.
+This website has links to some of my data science projects and some of my blog posts. Get in touch if you want to talk more about data science or medicine.</description>
+    </item>
+    
+  </channel>
+</rss>
