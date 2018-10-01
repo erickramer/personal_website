@@ -8,6 +8,6 @@ draft: false
 
 [Email](mailto:ericransomkramer@gmail.com)
 
-[Github](https://github.com/erickramer)
+[GitHub](https://github.com/erickramer)
 
 [LinkedIn](https://www.linkedin.com/in/eric-kramer-3755a328/)
